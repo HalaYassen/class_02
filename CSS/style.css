@@ -33,3 +33,15 @@ ul li a{
     color: black;
     font-size: x-large;
 }
+
+h4{
+    color: darkblue;
+    font-size: x-large;
+}
+
+ol{
+    color: darkgreen;
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 70px;
+}
