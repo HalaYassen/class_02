@@ -1,8 +1,17 @@
 'use strict';
 let userName = prompt('what\'s your name ? ');
-console.log(userName);
+
+
+alert ("welcome " + userName);
+
+console.log();
+
+
+
 alert('welcome ' + userName + ' , ' + ' now let\'s play and have FUN!');
-/*
+
+
+function  Q1 (){
 let knowIrbid=prompt('have you visit IRBID befor?');
 
 knowIrbid=knowIrbid.toLowerCase();
@@ -15,7 +24,9 @@ else if((knowIrbid=='no')||(knowIrbid=='n'))
     alert('OOOH!, I advice  you to visit it');
 }
 //console.log(knowIrbid);
-
+}
+Q1();
+function Q2(){
 let knowYarmouk=prompt('have you hear about Yarmouk Uviversity befor?');
 
 knowYarmouk=knowYarmouk.toUpperCase();
@@ -28,7 +39,10 @@ else if(knowYarmouk=='NO'||knowYarmouk=='N')
     alert('it was built in 1978 in Irbid');
 }
 //console.log(knowYarmouk);
+}
+Q2 ();
 
+function Q3(){
  let yourAge=prompt('is your age greater than 18 ?');
 
  yourAge=yourAge.toUpperCase();
@@ -36,9 +50,13 @@ else if(knowYarmouk=='NO'||knowYarmouk=='N')
      alert('I wanna to tell you a secret !!!');
  } else if (yourAge=='NO'||yourAge=='N'){
      alert('you are so young, but you are still welcomed here!');
- }
+ } 
+return yourAge ;
  //console.log(yourAge);
+}
+Q3();
 
+function Q4 (){
 let secret=prompt('do you want to tell you a top secret here?');
 
 secret=secret.toLowerCase();
@@ -49,6 +67,10 @@ if (secret=='yes'||secret=='y'){
     alert('oh no... WHY!!!! :( ');
 }
 //console.log(secret);
+}
+Q4();
+
+function Q5 (){
 let ASAC=prompt('do you know ASAC school?');
 ASAC=ASAC.toUpperCase();
 if (ASAC=='YES'||ASAC=='Y'){
@@ -57,11 +79,14 @@ if (ASAC=='YES'||ASAC=='Y'){
     alert('you need to know more !!');
 }
 //console.log(ASAC);
-alert('i hope see  you again '+ userName+', '+' but for now you need to leave goodbuy!');
+}
+Q5();
 
-*/
+alert('i hope see  you again '+ userName+', '+' but for now you need to leave goodbuy!');
+function Q6 (){
 let myAge = 25;
 alert('Befor start you have four trial to guess the number let\'s start');
+
 
 
 let trial = 0;
@@ -80,13 +105,18 @@ do {
     else { alert('you need to try again!!') }
     trial++;
 }
+
 while (trial < 4)
 
 console.log(trial);
+}
+Q6();
+
+
+
 let score = 0;
-
 let myUniversity = ['yarmouk', 'just university', 'alpalqaa ', 'jordanian university'];
-
+function Q7 (){
 let guessMyUniversity='';
 let trial1 = 0;
 do {
@@ -101,8 +131,8 @@ do {
     }while (trial1<6)
     
     alert('your score is ' + score);
-
-
+}
+Q7();
 
 
 
@@ -143,7 +173,4 @@ do {
     }
     trial1++;
 } while (trial1 < 6)*/
-
-
-
 
