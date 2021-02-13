@@ -1,47 +1,83 @@
 body{
-    background-color: rgb(233, 205, 247);
+    background-color: rgb(71, 91, 95);
 }
 
 h1{
     text-align: center;
-    font-weight: bolder;
+    font-size: 20px;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
 }
+
+#p1{ font-size: 25px;font-style: italic;margin-left: 10px;
+    border-style: dotted;
+    padding: 5px;
+    width: 500px;
+    height: 150px;
+    text-align: left;}
+
+
+#p2{font-size: 25px; font-style: oblique;margin-left: 10px;
+border-style: dotted; padding: 5px; width: 500px;height: 150px; text-align: left;}
+
 #firstHeader{
-    
-    color: darkred;
-    font-size: xx-large;
-}
+    color: rgb(139, 0, 0);
+    font-size:50px;
+    /*background-color: rgba(214,102,254,.25);*/
+    margin-left: 10px;
+  }
+
 #secondHeader{
     
-    color: darkslateblue;
-    font-size: xx-large;
+    color: rgb(6, 240, 123);
+    font-size: 50px;
+    margin-left: 10px;
 }
+
 ul li{
     display: inline-block;
     margin: 20px;
+   
 }
 ul li a{
     text-decoration: none;
-    color: rgb(121, 60, 3);
-    font-size: large;
+    font-size: 20px;
+    color: rgba(238, 228, 227, 1);
 }
 .topicsName{
     color: maroon;
-
+    font-size: 30px;
 }
 #ASAC{
     color: black;
-    font-size: x-large;
+    font-size: 40px;
+    margin-left: 10px;
 }
 
 h4{
     color: darkblue;
-    font-size: x-large;
+    font-size: 50px;
+    font-family:fantasy;
+    margin-left: 10px;
 }
 
+/*
 ol{
-    color: darkgreen;
+    color: rgb(230, 9, 130);
     list-style-type: decimal;
     list-style-position: inside;
-    margin-left: 70px;
+    margin-left: 10px;
+}
+*/
+
+ol li{
+    margin-left: 30px;
+    list-style-type: decimal;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+footer{
+    font-family: cursive;
+    font-size: 30px;
 }
